@@ -1,4 +1,4 @@
-import { Mail, Github, Linkedin } from "lucide-react";
+import { Mail, Github, Linkedin, MessageCircle } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -80,6 +80,13 @@ const Contact = () => {
                   <Linkedin size={20} />
                   linkedin.com/in/freud-joslin-bossou
                 </a>
+                <a href="https://wa.me/22940122300"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-3 text-base-content/70 hover:text-accent transition-colors">
+                    <MessageCircle size={20} />
+                    WhatsApp
+                    </a>
               </div>
             </div>
 
