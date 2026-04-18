@@ -1,4 +1,4 @@
-import Title from './Title';
+
 
 const About = () => {
   const skills = [
