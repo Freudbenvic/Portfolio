@@ -3,6 +3,7 @@ import Home from "./Components/Home"
 import About from "./Components/About"
 import Experience from "./Components/Experience"
 import Projets from "./Components/Projets"
+import Contacts from "./Components/Contacts"
 
 export default function App() { 
   return ( 
@@ -19,6 +20,9 @@ export default function App() {
       </div> 
       <div>
         <Projets />
+      </div>
+      <div>
+        <Contacts />
       </div>
     </div> 
   ) 

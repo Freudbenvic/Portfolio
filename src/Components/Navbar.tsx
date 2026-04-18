@@ -29,6 +29,11 @@ const Navbar = () => {
                         Mes projets
                     </a>
                 </li>
+                <li>
+                    <a href="#contact" className="btn btn-sm btn-ghost">
+                        Contacts
+                    </a>
+                </li>
             </ul>
         </div>
     )
