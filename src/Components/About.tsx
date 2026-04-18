@@ -3,7 +3,7 @@
 const About = () => {
   const skills = [
     "React", "JavaScript", "HTML / CSS",
-    "Tailwind", "Python", "Git", "TypeScript", "Figma"
+    "Tailwind", "Python", "Git", "TypeScript", "Figma", "Flutter", "Dart"
   ];
 
   const stats = [

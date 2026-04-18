@@ -2,7 +2,7 @@ import { Mail} from "lucide-react";
 import img from '../assets/Fix.jpg'
 const Home = () => {
   return (
-    <div className="flex flex-col-reverse md:flex-row justify-center items-center md:my-32 my-10">
+    <div id="accueil" className="flex flex-col-reverse md:flex-row justify-center items-center md:my-32 my-10">
       <div className="flex flex-col">
         <h1 className="text-5xl md:text-6xl font-bold text-center md:text-left mt-4 mb-4">
             Bonjour, <br />

@@ -3,3 +3,6 @@
   themes: light, dark;
 }
 
+html {
+  scroll-behavior: smooth;
+}
