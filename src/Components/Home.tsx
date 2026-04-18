@@ -15,11 +15,11 @@ const Home = () => {
             <br />Mon objectif est de transformer vos idées en réalité numérique, en utilisant les dernières technologies pour offrir des solutions innovantes et efficaces.
         </p>
         <div className="flex gap-4 items-center">
-          <button className="btn btn-accent">
-              <Mail size={18} />
+          <a href="#contact" className="btn btn-accent">
+            <Mail size={18} />
             Contactez-moi
-            </button>
-          <a href="/CV.pdf" download className="btn btn-outline">
+          </a>
+          <a href="/cv.pdf" download className="btn btn-outline">
               Télécharger mon CV
           </a>
         </div>
