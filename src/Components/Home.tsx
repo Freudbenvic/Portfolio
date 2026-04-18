@@ -19,7 +19,7 @@ const Home = () => {
               <Mail size={18} />
             Contactez-moi
             </button>
-          <a href="/cv.pdf" download className="btn btn-outline">
+          <a href="/CV.pdf" download className="btn btn-outline">
               Télécharger mon CV
           </a>
         </div>
