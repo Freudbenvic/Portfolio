@@ -1,4 +1,4 @@
-
+import { Mail} from "lucide-react";
 
 const About = () => {
   const skills = [
@@ -71,6 +71,7 @@ const About = () => {
 
             <div className="flex gap-4">
               <a href="#contact" className="btn btn-accent">
+                <Mail size={18} />
                 Contactez-moi
               </a>
               <a href="/cv.pdf" download className="btn btn-outline btn-accent">
